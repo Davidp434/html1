@@ -6,12 +6,11 @@ body {
   font-family: 'Helvetica Neue', sans-serif;
   text-align: center;
   color: white;
+  background-color: #4158d0;
   background: linear-gradient(
     90deg,
-    rgba(9, 2, 2, 1) 7%,
-    rgba(12, 99, 148, 1) 51%,
-    rgba(4, 4, 4, 1) 90%,
-    rgba(0, 0, 0, 1) 100%
+    rgba(3, 11, 48, 1) 0%,
+    rgba(0, 244, 85, 1) 85%
   );
 }
 nav {
@@ -40,8 +39,12 @@ ul li a {
 ul li a:hover {
   color: rgba(12, 99, 148, 1);
 }
-
-footer {
+img {
+  padding: 20px;
+  border-top: 1px solid #666;
+  margin-top: 20 px;
+}
+s footer {
   padding: 20px;
   border-top: 1px solid #666;
   margin-top: 20px;

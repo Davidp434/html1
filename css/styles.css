@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*  */
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #4158d0;
+  background: linear-gradient(
+    90deg,
+    rgba(3, 11, 48, 1) 0%,
+    rgba(0, 244, 85, 1) 85%
+  );
+}
+/* Estilo aplicado nos elementos
+pela classe id=div-paragrafos */
+#div-paragrafos {
+  color: aliceblue;
+  background-color: rgba(3, 11, 48, 1);
+}
+/*Estilo aplicando elementos pela classe */
+
+.longo {
+  background: rgb(95, 91, 92);
+}
+/* estilo aplicado no elemnto pelo id=p1 */
+#p1 {
+  color: red;
+  font-size: 30px;
+  font-family: 'Franklin gothic mediun';
+}
+
+p {
+  font-family: 'Revision';
+}
